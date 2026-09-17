@@ -2,19 +2,19 @@
 
 ## Ejercicio 1 · Declarar y reasignar con `let`
 
-**Explicación.** Declaro `nombre` con `let` porque el ejercicio pide reasignarla
-después; con `const` la segunda asignación daría `TypeError`.
+**Explicación.** Declaro `nombre` con let con mi nombre,
+luego reasigno el valor de `nombre` y compruebo el cambio con `log`
 
 ```js
-let nombre = "Ana";
+let nombre = "Victor";
 console.log(nombre);
-nombre = "Luis";
+nombre = "Falso";
 console.log(nombre);
 ```
 
 ```txt
-Ana
-Luis
+Victor
+Falso
 ```
 
 ## Ejercicio 2 · Constante `PI`
