@@ -1,17 +1,27 @@
-export default 3.416;
+export const PI = 3.1416;
 
-function suma(a, b) {
+export function suma(a, b) {
     return a + b;
 }
 
-function resta(a, b) {
+export function resta(a, b) {
     return a - b;
 }
 
-class Calculadora {
+export class Calculadora {
     static multiplicar(a, b) {
         return a * b;
     }
 }
 
-export { suma, resta, Calculadora };
+function areaCirculo(radio) {
+    return PI * Math.pow(radio, 2);
+}
+
+function areaCuadrado(lado) {
+
+    return lado * lado;
+
+}
+
+export { areaCirculo as circulo, areaCuadrado as cuadrado };
